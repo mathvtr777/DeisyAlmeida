@@ -22,7 +22,7 @@ const Contact = () => {
           rel="noreferrer"
           className="btn-primary mt-9 px-9 py-4 text-base w-full sm:w-auto"
         >
-          <WhatsAppIcon /> Agendar pelo WhatsApp
+          <WhatsAppIcon /> Iniciar o seu processo
         </a>
 
         <p className="mt-5 text-xs text-text-soft tracking-wide">

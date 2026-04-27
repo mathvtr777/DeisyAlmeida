@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import Hero from "@/components/site/Hero";
 import About from "@/components/site/About";
 import Approach from "@/components/site/Approach";
+import AboutPsicoterapia from "@/components/site/AboutPsicoterapia";
 import Modalities from "@/components/site/Modalities";
 import Quote from "@/components/site/Quote";
 import Contact from "@/components/site/Contact";
@@ -32,6 +33,7 @@ const Index = () => {
       <Hero />
       <About />
       <Approach />
+      <AboutPsicoterapia />
       <Modalities />
       <Quote />
       <Contact />

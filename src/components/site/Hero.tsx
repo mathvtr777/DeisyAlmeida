@@ -1,3 +1,5 @@
+import deisyPhoto from "@/assets/deisy.jpeg";
+
 const Hero = () => {
   return (
     <section id="inicio" className="relative pt-32 md:pt-40 pb-20 md:pb-28 overflow-hidden">
@@ -20,7 +22,7 @@ const Hero = () => {
 
           <div className="mt-9 flex flex-col sm:flex-row gap-5 sm:items-center">
             <a href="https://wa.me/55XXXXXXXXXX" target="_blank" rel="noreferrer" className="btn-primary w-full sm:w-auto">
-              Agendar minha consulta
+              Iniciar o seu processo
             </a>
             <a href="#abordagem" className="btn-ghost">
               Conheça minha abordagem ↓
@@ -36,10 +38,14 @@ const Hero = () => {
             style={{ background: "hsl(var(--sage) / 0.18)" }}
           />
           <div
-            className="organic-blob aspect-[4/5] w-full max-w-md mx-auto relative"
+            className="organic-blob aspect-[4/5] w-full max-w-md mx-auto relative overflow-hidden"
             style={{ background: "var(--gradient-organic)" }}
           >
-            <div className="absolute inset-0 organic-blob bg-white/10" />
+            <img
+              src={deisyPhoto}
+              alt="Deisy Almeida — Psicóloga Clínica"
+              className="absolute inset-0 w-full h-full object-cover object-top"
+            />
           </div>
           <div
             aria-hidden

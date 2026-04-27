@@ -53,7 +53,7 @@ const Header = () => {
         </nav>
 
         <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="hidden md:inline-flex btn-primary">
-          Agendar via WhatsApp
+          Iniciar o seu processo
         </a>
 
         <button
@@ -104,7 +104,7 @@ const Header = () => {
               onClick={() => setOpen(false)}
               className="btn-primary mt-3 w-full"
             >
-              Agendar via WhatsApp
+              Iniciar o seu processo
             </a>
           </nav>
         </aside>
