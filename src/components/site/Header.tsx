@@ -81,7 +81,7 @@ const Header = () => {
           onClick={(e) => e.stopPropagation()}
         >
           <div className="flex items-center justify-between p-5 border-b border-peach/30">
-            <p className="font-serif text-sage">Deisy Almeida</p>
+            <img src={logo} alt="Deisy Almeida" className="h-14 w-auto" />
             <button aria-label="Fechar menu" onClick={() => setOpen(false)} className="p-1 text-text-soft">
               <X className="h-5 w-5" strokeWidth={1.5} />
             </button>
