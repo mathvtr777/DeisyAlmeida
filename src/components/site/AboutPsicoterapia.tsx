@@ -3,18 +3,17 @@ import { Check } from "lucide-react";
 const especificos = [
   "Transtornos Ansiosos",
   "Transtorno Depressivo",
-  "Transtorno Bipolar",
-  "Transtorno de Personalidade Borderline",
+  "Transtornos do humor",
+  "TDAH",
   "Transtornos do Neurodesenvolvimento",
   "Dentre outros",
 ];
 
 const outrasDemandas = [
-  "Comer Emocional",
   "Desregulação Emocional",
   "Autoestima",
   "Procrastinação",
-  "Crenças de Incapacidade",
+  "Crenças",
   "Dentre outras",
 ];
 
