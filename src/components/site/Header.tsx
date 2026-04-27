@@ -36,7 +36,7 @@ const Header = () => {
           <img
             src={logo}
             alt="Deisy Almeida — Psicóloga, CRP 03/32796"
-            className="h-20 sm:h-24 md:h-20 lg:h-24 w-auto"
+            className="header-logo w-auto"
           />
         </a>
 
