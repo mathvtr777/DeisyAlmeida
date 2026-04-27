@@ -126,7 +126,55 @@
     border-radius: 60% 40% 55% 45% / 45% 55% 40% 60%;
   }
 
-  /* Fade-in on scroll */
+  /* ── Quote / Separador ────────────────────────────────── */
+  .quote-banner {
+    position: relative;
+    height: clamp(260px, 40vw, 480px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quote-bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+
+  .quote-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      hsl(var(--sage) / 0.72),
+      hsl(84 22% 30% / 0.80)
+    );
+    backdrop-filter: blur(0px);
+  }
+
+  .quote-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .quote-text {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 760px;
+    margin-inline: auto;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-shadow:
+      0 2px 8px hsl(0 0% 0% / 0.55),
+      0 4px 32px hsl(0 0% 0% / 0.35);
+  }
   .reveal {
     opacity: 0;
     transform: translateY(24px);

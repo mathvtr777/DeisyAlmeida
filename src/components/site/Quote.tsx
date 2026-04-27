@@ -1,12 +1,23 @@
+import deisy1 from "@/assets/deisy1.jpeg";
+
 const Quote = () => {
   return (
-    <section className="py-24 md:py-32" style={{ background: "hsl(var(--sage))" }}>
-      <div className="container-soft text-center reveal">
-        <p
-          className="font-serif text-white max-w-3xl mx-auto leading-snug"
-          style={{ fontSize: "clamp(1.7rem, 3.5vw, 2.4rem)" }}
-        >
-          “Cuidar de si é um ato de coragem.”
+    <section className="quote-banner">
+      {/* Background image */}
+      <img
+        src={deisy1}
+        alt=""
+        aria-hidden
+        className="quote-bg-img"
+      />
+
+      {/* Dark overlay */}
+      <div className="quote-overlay" />
+
+      {/* Text */}
+      <div className="container-soft quote-content reveal">
+        <p className="quote-text">
+          &ldquo;Cuidar de si é um ato de coragem.&rdquo;
         </p>
       </div>
     </section>
