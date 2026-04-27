@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
 
           <div className="mt-9 flex flex-col sm:flex-row gap-5 sm:items-center">
-            <a href="https://wa.me/55XXXXXXXXXX" target="_blank" rel="noreferrer" className="btn-primary w-full sm:w-auto">
+            <a href="https://api.whatsapp.com/message/LSF5HAHSAH2JK1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noreferrer" className="btn-primary w-full sm:w-auto">
               Iniciar o seu processo
             </a>
             <a href="#abordagem" className="btn-ghost">

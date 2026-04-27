@@ -10,7 +10,7 @@ const links = [
   { href: "#contato", label: "Contato" },
 ];
 
-const WHATSAPP_URL = "https://wa.me/55XXXXXXXXXX";
+const WHATSAPP_URL = "https://api.whatsapp.com/message/LSF5HAHSAH2JK1?autoload=1&app_absent=0&utm_source=ig";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);

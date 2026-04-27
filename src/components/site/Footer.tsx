@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="#" aria-label="Instagram" className="hover:text-sage transition-colors flex items-center gap-2 text-sm">
             <Instagram className="h-4 w-4" strokeWidth={1.5} /> Instagram
           </a>
-          <a href="https://wa.me/55XXXXXXXXXX" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="hover:text-sage transition-colors flex items-center gap-2 text-sm">
+          <a href="https://api.whatsapp.com/message/LSF5HAHSAH2JK1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="hover:text-sage transition-colors flex items-center gap-2 text-sm">
             <MessageCircle className="h-4 w-4" strokeWidth={1.5} /> WhatsApp
           </a>
         </div>

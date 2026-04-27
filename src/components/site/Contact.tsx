@@ -17,7 +17,7 @@ const Contact = () => {
         </p>
 
         <a
-          href="https://wa.me/55XXXXXXXXXX"
+          href="https://api.whatsapp.com/message/LSF5HAHSAH2JK1?autoload=1&app_absent=0&utm_source=ig"
           target="_blank"
           rel="noreferrer"
           className="btn-primary mt-9 px-9 py-4 text-base w-full sm:w-auto"
