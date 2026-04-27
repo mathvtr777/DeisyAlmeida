@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Leaf } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo-deisy.png";
 
 const links = [
   { href: "#inicio", label: "Início" },
@@ -31,14 +32,12 @@ const Header = () => {
       }`}
     >
       <div className="container-soft flex items-center justify-between py-4">
-        <a href="#inicio" className="flex items-center gap-2 group">
-          <Leaf className="h-5 w-5 text-sage" strokeWidth={1.5} />
-          <div className="leading-tight">
-            <p className="font-serif text-lg text-sage">Deisy Almeida</p>
-            <p className="text-[11px] text-text-soft tracking-wide">
-              Psicóloga | CRP __/__________
-            </p>
-          </div>
+        <a href="#inicio" className="flex items-center group shrink-0">
+          <img
+            src={logo}
+            alt="Deisy Almeida — Psicóloga, CRP 03/32796"
+            className="h-20 sm:h-24 md:h-20 lg:h-24 w-auto"
+          />
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">
